@@ -23,7 +23,7 @@ include $(RTE_SDK)/mk/rte.vars.mk
 # library name
 LIB = libtle_l4p.a
 
-CFLAGS += -O3
+CFLAGS += -O3 -g
 CFLAGS += $(WERROR_FLAGS) -I$(SRCDIR)
 
 EXPORT_MAP := tle_l4p_version.map
